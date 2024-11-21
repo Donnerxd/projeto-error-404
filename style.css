@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../projeto-error404/Images/backgroundimageresize.jpg);
+    height: 100vh;
+}
+.move-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+.move-text h1 {
+    margin-top: -200px;
+    font-size: 80px;
+    font-family: 'Concert One', sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 0.9;
+    /* background: linear-gradient(90deg,#DFF2EB,#B9E5E8,#7AB2D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    -webkit-text-stroke: 1px black;
+}
+.move-text p {
+    position: relative;
+    bottom: -370px;
+    color: white;
+}
+.move-text p2 {
+    font-size: 50px;
+    font-family: 'Concert One', sans-serif;
+    font-weight: 400;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    max-width: 350px;
+    text-align: center;
+}
+ .button-style {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    opacity: 0.9;
+    font-family: 'Concert One', sans-serif;
+}
+.button-style:hover {
+    background-color: #181A18;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.search-bar input {
+    border: none;
+    flex: 1;
+    padding: 7px;
+    font-size: 16px;
+}
+.search-bar i {
+    margin-right: px;
+    color: white;
+    font-size: 16px;
+}
+.search-bar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 16px;
+    place-items: center;
+  }
+
